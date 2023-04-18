@@ -114,7 +114,7 @@ public class LibertyRestEndpoint extends Application {
       if (ratings_enabled) {
         if (starsReviewer1 != -1) {
           //result += ", \"rating\": {\"stars\": " + starsReviewer1 + ", \"color\": \"" + star_color + "\"}";
-          result += ", \"rating\": {\"stars\": " + starsReviewer1 + ", \"color\": \"" + "yellow" + "\"}";
+          result += ", \"rating\": {\"stars\": " + starsReviewer1 + ", \"color\": \"" + "red" + "\"}";
         }
         else {
           result += ", \"rating\": {\"error\": \"Ratings service is currently unavailable\"}";
@@ -129,7 +129,7 @@ public class LibertyRestEndpoint extends Application {
       if (ratings_enabled) {
         if (starsReviewer2 != -1) {
           //result += ", \"rating\": {\"stars\": " + starsReviewer2 + ", \"color\": \"" + star_color + "\"}";
-          result += ", \"rating\": {\"stars\": " + starsReviewer2 + ", \"color\": \"" + "yellow" + "\"}";
+          result += ", \"rating\": {\"stars\": " + starsReviewer2 + ", \"color\": \"" + "red" + "\"}";
         }
         else {
           result += ", \"rating\": {\"error\": \"Ratings service is currently unavailable\"}";
